@@ -1,3 +1,1 @@
-import streamlit as st
-
-st.write("Hello World, this is my new Streamlit application")
+print("Hello world, this is my first streamlit app")
