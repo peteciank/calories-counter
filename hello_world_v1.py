@@ -26,6 +26,7 @@ def more_rows():
   
   df2 = pd.DataFrame(data)
   element.add_rows(df2)
+  st.dataframe(element)
 
 with st.form(key='my_form'):
 
