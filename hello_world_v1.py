@@ -17,16 +17,15 @@ element = st.dataframe(df1)
 
 
 with st.form(key='my_form'):
- 	calories = st.text_input(label='Enter calories')
+  calories = st.text_input(label='Enter calories')
   duration = st.text_input(label='Enter duration')
   
   data = {
-   "calories": [calories],
-   "duration": [duration]
+    "calories": [calories],
+    "duration": [duration]
   }
   
   df2 = pd.DataFrame(data)
   element.add_rows(df2)
-
   
- 	submit_button = st.form_submit_button(label='Submit')
+  submit_button = st.form_submit_button(label='Submit')
