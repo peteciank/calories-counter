@@ -15,6 +15,8 @@ st.write("Hello World, this is my new Streamlit application. It works again. ")
 
 element = st.dataframe(df1)
 
+st.write(element)
+
 def more_rows():
   calories = int(st.number_input(label='Enter calories'))
   duration = int(st.number_input(label='Enter duration'))
@@ -26,7 +28,7 @@ def more_rows():
   
   df2 = pd.DataFrame(data)
   element.add_rows(df2)
-  st.dataframe(element)
+
 
 with st.form(key='my_form'):
 
