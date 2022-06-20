@@ -15,7 +15,7 @@ st.write("Hello World, this is my new Streamlit application. It works again. ")
 
 element = st.dataframe(df1)
 
-st.write(data)
+st.text(data)
 
 def more_rows():
   calories = int(st.number_input(label='Enter calories'))
