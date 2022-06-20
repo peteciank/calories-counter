@@ -17,8 +17,8 @@ element = st.dataframe(df1)
 
 
 with st.form(key='my_form'):
-  calories = st.text_input(label='Enter calories')
-  duration = st.text_input(label='Enter duration')
+  calories = st.number_input(label='Enter calories')
+  duration = st.number_input(label='Enter duration')
   
   data = {
     "calories": [calories],
