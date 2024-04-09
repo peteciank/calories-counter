@@ -1,6 +1,6 @@
 # 🏋️‍♂️ Exercise Calorie Burn Calculator
 
-A simple web application to calculate the approximate calories burned during a specific exercise based on the duration of the exercise.
+My first app in Streamlit. A simple web application to calculate the approximate calories burned during a specific exercise based on the duration of the exercise.
 
 ## 🚀 Getting Started
 
