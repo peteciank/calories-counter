@@ -34,3 +34,14 @@ duration = st.slider("Select exercise duration (minutes)", 0, 120, 30)
 # Calculate and display approximate calories burned
 calories_burned = calculate_calories(selected_exercise, duration)
 st.write(f"Approximate calories burned for {duration} minutes of {selected_exercise}: {calories_burned:.2f} kcal")
+
+# Display badge
+st.markdown("""
+    <div style="display: flex; align-items: center;">
+        <img src="https://raw.githubusercontent.com/peteciank/public_files/main/mugshot_light.png" alt="Profile Picture" style="border-radius: 50%; margin-right: 20px;">
+        <div>
+            <p style="font-weight: bold; margin-bottom: 5px;">Created by Pete Ciank</p>
+            <p style="margin: 0;">Streamlit enthusiast, Tech Lover, Product and Project Manager 💪</p>
+        </div>
+    </div>
+""", unsafe_allow_html=True)
