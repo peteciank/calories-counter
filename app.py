@@ -45,3 +45,10 @@ st.markdown("""
         </div>
     </div>
 """, unsafe_allow_html=True)
+
+with st.expander("📃 Download Resume / Cover", expanded=False):
+    st.markdown('📖 My [LinkedIn](https://www.linkedin.com/in/pedrociancaglini/) Profile.')
+    st.markdown('🌎 My [Website](https://sites.google.com/view/pedrociancaglini)')
+    st.markdown('👩‍💻 My [Github](https://github.com/peteciank/)')
+    st.markdown('🔽 [Download](https://github.com/peteciank/public_files/blob/main/Ciancaglini_Pedro_Resume_v24.pdf) my Resume')
+    st.markdown('🔽 [Download](https://github.com/peteciank/public_files/blob/main/Cover%20Letter.pdf) my Letter')
