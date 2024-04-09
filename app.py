@@ -46,7 +46,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-with st.expander("📃 Download Resume / Cover", expanded=False):
+with st.expander("📃 Check my personal links, Resume, Cover Letter and More", expanded=False):
     st.markdown('📖 My [LinkedIn](https://www.linkedin.com/in/pedrociancaglini/) Profile.')
     st.markdown('🌎 My [Website](https://sites.google.com/view/pedrociancaglini)')
     st.markdown('👩‍💻 My [Github](https://github.com/peteciank/)')
