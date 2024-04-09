@@ -38,7 +38,7 @@ st.write(f"Approximate calories burned for {duration} minutes of {selected_exerc
 # Display badge
 st.markdown("""
     <div style="display: flex; align-items: center;">
-        <img src="https://raw.githubusercontent.com/peteciank/public_files/main/mugshot_light.png" alt="Profile Picture" style="border-radius: 50%; margin-right: 20px;">
+        <img src="https://raw.githubusercontent.com/peteciank/public_files/main/mugshot_light.png" alt="Profile Picture" style="border-radius: 50%; margin-right: 20px;width: 50px; height: 50px;">
         <div>
             <p style="font-weight: bold; margin-bottom: 5px;">Created by Pete Ciank</p>
             <p style="margin: 0;">Streamlit enthusiast, Tech Lover, Product and Project Manager 💪</p>
