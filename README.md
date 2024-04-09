@@ -45,3 +45,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 - Inspired by the need for a simple tool to calculate exercise calorie burn.
 
+[Demo](https://calories-counters.streamlit.app)
